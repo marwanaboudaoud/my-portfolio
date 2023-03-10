@@ -14,6 +14,9 @@ export const Navbar = () => {
                     <li className="nav-item">
                         <a className="nav-link" href="/contact">Contact </a>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/todos">todos </a>
+                    </li>
                 </ul>
             </div>
         </nav>

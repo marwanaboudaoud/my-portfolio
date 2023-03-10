@@ -1,0 +1,30 @@
+.todo-list {
+    margin: 10px 0
+ }
+ 
+ .todo-list .todo-item {
+   padding: 15px;
+   span:first-of-type{
+    text-align: start;
+   }
+
+ }
+ 
+ div.checker {
+   width: 18px;
+   height: 18px
+ }
+ 
+ div.checker input{
+   width: 18px;
+   height: 18px
+ }
+ 
+ div.checker {
+   display: inline-block;
+   vertical-align: middle;
+ }
+ 
+ .done {
+   text-decoration: line-through;
+ }

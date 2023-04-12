@@ -33,7 +33,7 @@ const Todos = () => {
                 });
         };
         getTodo();
-    }, [collectionRef]);
+    }, []);
 
     const deleteTodo = async (id: string) => {
         try {
@@ -69,7 +69,6 @@ const Todos = () => {
                 transaction.update(docRef, { isChecked: newValue });
             });
             console.log("Transaction successfully committed!");
-            // window.confirm("Transaction successfully committed!");
         } catch (error) {
             console.log("Transaction failed: ", error);
         }
@@ -117,3 +116,5 @@ const Todos = () => {
 };
 
 export default Todos;
+
+//1161.70  factuurnummer:23240058 Adam Abou Daoud
